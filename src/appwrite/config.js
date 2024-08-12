@@ -118,7 +118,7 @@ export class Service{
             return false
         }
     }
-    async previewFile(fileId){
+    async getFilePreview(fileId){
         try {
             await this.bucket.getFilePreview(
                 conf.appwriteBucketId,
@@ -133,3 +133,4 @@ export class Service{
 }
 
 const service = new Service()
+export default service
