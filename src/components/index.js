@@ -6,10 +6,12 @@ import RTE from "./RTE";
 import Signup from "./Signup";
 import Login from "./Login";
 import Button from "./Button";
-import PostForm from "./post-form/PostForm";
+import PostForm from "./post-from/PostFrom";
 import PostCard from "./PostCard";
 import AuthLayout from "./AuthLayout";
 import Input from "./Input";
+import Select from "./Select"
+import Container from "./Container/container"
 
 export {
    Footer,
@@ -25,4 +27,5 @@ export {
    AuthLayout,
    Input,
    Select,
+   Container
 };
